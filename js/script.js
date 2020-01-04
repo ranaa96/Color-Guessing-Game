@@ -17,7 +17,7 @@ function init(){
         squares[i].addEventListener('click' , function(){
            var clickedColor = this.style.backgroundColor ;
            if ( clickedColor === pickedColor) {
-            messageDisplay.textContent = "Correct!";
+            messageDisplay.textContent = "Correct^^";
             for(s of squares){
                 s.style.backgroundColor=pickedColor;
             }
